@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{9348e8ac-2aad-4d5d-acff-6618c0446e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\glfw3">
+      <UniqueIdentifier>{430a5465-cde2-488e-826a-3a23d2581c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\glew">
+      <UniqueIdentifier>{9a1a4e1a-488f-454f-85e4-af9fd4db2269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\freeglut">
+      <UniqueIdentifier>{b7bf7fc2-b545-40aa-941d-2483df5f47b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{44cf03a0-db86-4ad0-86d8-d9f098a59f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{314e8396-ea96-4b0f-929a-62dbdce205ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\GfxTest2\GfxTest2\Dependencies\freeglut\freeglut.h">
+      <Filter>Dependencies\freeglut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GfxTest2\GfxTest2\Dependencies\freeglut\freeglut_ext.h">
+      <Filter>Dependencies\freeglut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GfxTest2\GfxTest2\Dependencies\freeglut\freeglut_std.h">
+      <Filter>Dependencies\freeglut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GfxTest2\GfxTest2\Dependencies\glew\glew.h">
+      <Filter>Dependencies\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GfxTest2\GfxTest2\Dependencies\glew\glxew.h">
+      <Filter>Dependencies\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GfxTest2\GfxTest2\Dependencies\glew\wglew.h">
+      <Filter>Dependencies\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GfxTest2\GfxTest2\Dependencies\freeglut\glut.h">
+      <Filter>Dependencies\freeglut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GfxTest2\GfxTest2\Dependencies\glfw3\glfw3.h">
+      <Filter>Dependencies\glfw3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GfxTest2\GfxTest2\Dependencies\glfw3\glfw3native.h">
+      <Filter>Dependencies\glfw3</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
